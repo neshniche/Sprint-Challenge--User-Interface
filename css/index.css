@@ -129,6 +129,7 @@ p {
 footer {
     width: 100%;
     background: black;
+
 }
 
 footer nav {
@@ -137,10 +138,114 @@ footer nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    text-align: center;
+}
+
+.middle-content .boxes .box.box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box.box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box.box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box.box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box.box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box.box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box.box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box.box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box.box10 {
+    background-color: dodgerblue;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 25px;
+    font-size: 16px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding-top: 25px;
+}
+
+header img {
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.top-section-content {
+    border-bottom: 1px dashed black;
+    margin: 20px;
+}
+
+.top-section-content div {
+    margin-bottom: 20px;
+}
+
+.middle-section-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.about-content {
+    border-bottom: 1px dashed black;
+    width: 380px;
+    height: 450px;
+    padding: 20px 5px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.about-content h4 {
+    padding-top: 15px;
+}
+
+.learn-more-button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+
+.bottom-section-content {
+    margin: 20px;
+    padding-bottom: 25px;
 }
